@@ -18,7 +18,7 @@ cd gaming-ai-assistant
 pip install fastapi uvicorn requests
 
 # Set Gemini API key
-export GEMINI_API_KEY=AIzaSyBhnKg9ITowPzB0iaexjI91bJ7Rt-4D-ug
+export GEMINI_API_KEY=
 
 # Run backend
 uvicorn app.main:app --reload
@@ -37,4 +37,5 @@ open frontend/index.html
 - Add user authentication
 - Deploy on cloud (Render/Heroku)
 - Add real-time chat interface
+
 """
